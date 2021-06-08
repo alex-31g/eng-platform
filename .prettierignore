@@ -5,3 +5,23 @@
 tsconfig.json
 *.html
 *.ts
+
+# https://prettier.io/docs/en/options.html
+# https://prettier.io/docs/en/ignore.html
+
+# "bracketSpacing": true,  
+# true - Example: { foo: bar }.
+# false - Example: {foo: bar}.
+
+# "arrowParens": "avoid"  
+# "always" - Always include parens. Example: (x) => x
+# "avoid" - Omit parens when possible. Example: x => x
+
+# How can I prevent prettier from taking multi-line array to a single line? -
+# A simple hack is to add comments after the first item in the array:
+# const myList = [
+#   'a', //
+#   'b',
+#   'c',
+#   'd',
+# ];
