@@ -4,7 +4,8 @@ import { RouterModule } from '@angular/router';
 
 import { HomeComponent } from 'src/app/home/components/home/home.component';
 
-import { FeedModule } from 'src/app/feed/feed.module';
+import { FeedRoomsModule } from 'src/app/feed-rooms/feed-rooms.module';
+import { FeedFriendsModule } from 'src/app/feed-friends/feed-friends.module';
 
 const routes = [
   {
@@ -18,7 +19,8 @@ const routes = [
   imports: [
     CommonModule,
     RouterModule.forChild(routes),
-    FeedModule,
+    FeedRoomsModule,
+    FeedFriendsModule,
   ]
 })
 export class HomeModule { }
