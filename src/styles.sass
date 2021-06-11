@@ -1,1 +1,56 @@
-/* You can add global styles to this file, and also import other style files */
+@import 'styles-variables.scss'
+@import '~bootstrap/scss/bootstrap-reboot.scss'
+@import '~bootstrap/scss/bootstrap-grid.scss'
+@import 'styles-reset.scss'
+
+// <button mat-button class="mat-button__app">
+//   <mat-icon class="icon-middle">phone_in_talk</mat-icon>
+//   Join the call
+// </button>
+
+// .mat-button__app
+//   height: fit-content
+//   padding: 0 10px
+//   text-overflow: ellipsis
+//   overflow: hidden
+//   white-space: nowrap
+//   color: $yellow
+//   border: 1px solid $yellow
+//   font-family: Consolas, monospace
+//   font-weight: normal
+
+// mat-icon.icon-middle
+//   width: 17px
+//   height: 17px
+//   font-size: 17px 
+
+mat-icon
+  &.icon-large
+    width: 20px
+    height: 20px
+    font-size: 20px
+
+  &.icon-middle
+    width: 17px
+    height: 17px
+    font-size: 17px
+
+  &.icon-small
+    font-size: 9px
+    width: 9px
+    height: 9px
+
+.font
+  &-large
+    font-size: 14px
+  &-middle
+    font-size: 12px
+  &-small
+    font-size: 10px
+
+.yellow
+  color: $yellow
+
+.grey
+  color: $bg2
+

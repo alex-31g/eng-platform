@@ -1,0 +1,12 @@
+* {
+  &:active,
+  :focus {
+    outline: none !important;
+  }
+  font-family: Consolas, monospace;
+  font-weight: normal;
+}
+
+label {
+  margin-bottom: 0;
+}

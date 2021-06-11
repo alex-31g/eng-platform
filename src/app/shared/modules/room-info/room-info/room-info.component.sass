@@ -1,0 +1,43 @@
+@import 'src/styles-variables.scss'
+  
+.mat-card-header 
+  border-bottom: 1px solid $dark-grey
+
+.mat-card-avatar
+  width: 40px
+  height: 40px
+  transition: .5s
+  &:hover 
+    box-shadow: 0 0 0 1px $yellow
+    cursor: pointer
+
+.mat-card-title 
+  font-size: 14px
+
+.title_lang
+  text-transform: uppercase
+  color: $yellow
+  border-bottom: 1px solid $yellow
+  font-weight: 600
+
+.title_level
+  color: $light-grey
+  font-weight: 100
+
+.mat-card-subtitle
+  display: flex
+  align-items: center
+  margin-bottom: 12px !important
+  color: $light-grey
+
+.mat-mini-fab
+  position: absolute
+  right: 16px
+  background-color: $yellow
+
+.dots
+  overflow: hidden
+  max-width: calc(100% - 100px)
+  display: -webkit-box
+  -webkit-line-clamp: 1
+  -webkit-box-orient: vertical

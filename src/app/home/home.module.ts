@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
+import { MaterialModule } from 'src/app/material-module';
 
 import { HomeComponent } from 'src/app/home/components/home/home.component';
 
@@ -19,6 +20,7 @@ const routes = [
   imports: [
     CommonModule,
     RouterModule.forChild(routes),
+    MaterialModule,
     FeedRoomsModule,
     FeedFriendsModule,
   ]
