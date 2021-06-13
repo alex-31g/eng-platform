@@ -1,15 +1,14 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MaterialModule } from 'src/app/shared/modules/material/material.module';
-
-import { FeedFriendsComponent } from 'src/app/feed-friends/components/feed-friends/feed-friends.component';
+import { CardRoomComponent } from 'src/app/card-room/components/card-room.component';
 
 @NgModule({
-  declarations: [FeedFriendsComponent],
+  declarations: [CardRoomComponent],
   imports: [
     CommonModule,
     MaterialModule
   ],
-  exports: [FeedFriendsComponent],
+  exports: [CardRoomComponent]
 })
-export class FeedFriendsModule { }
+export class CardRoomModule { }

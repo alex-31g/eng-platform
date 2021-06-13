@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { MaterialModule } from 'src/app/material-module';
+import { MaterialModule } from 'src/app/shared/modules/material/material.module';
 
-import { UserModule } from '../shared/modules/user/user.module';
-import { RoomInfoModule } from '../shared/modules/room-info/room-info.module';
+import { UserProfileModule } from 'src/app/user-profile/user-profile.module';
+import { CardRoomModule } from 'src/app/card-room/card-room.module';
 
 import { FeedRoomsComponent } from 'src/app/feed-rooms/components/feed-rooms/feed-rooms.component';
 
@@ -12,8 +12,8 @@ import { FeedRoomsComponent } from 'src/app/feed-rooms/components/feed-rooms/fee
   imports: [
     CommonModule,
     MaterialModule,
-    UserModule,
-    RoomInfoModule
+    UserProfileModule,
+    CardRoomModule
   ],
   exports: [FeedRoomsComponent],
 })

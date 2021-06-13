@@ -2,14 +2,14 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MaterialModule } from 'src/app/shared/modules/material/material.module';
 
-import { FeedFriendsComponent } from 'src/app/feed-friends/components/feed-friends/feed-friends.component';
+import { UserProfileComponent } from './user-profile/user-profile.component';
 
 @NgModule({
-  declarations: [FeedFriendsComponent],
+  declarations: [UserProfileComponent],
   imports: [
     CommonModule,
     MaterialModule
   ],
-  exports: [FeedFriendsComponent],
+  exports: [UserProfileComponent]
 })
-export class FeedFriendsModule { }
+export class UserProfileModule { }

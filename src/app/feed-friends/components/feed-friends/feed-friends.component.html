@@ -1,1 +1,114 @@
-<h1>FEED-FRIENDS</h1>
+<mat-card class="room_card">
+<mat-card-header>
+  <img mat-card-avatar src="https://material.angular.io/assets/img/examples/shiba2.jpg">
+  
+  <mat-card-title>
+    <span class="title_lang font-large">Zach Hill</span>
+  </mat-card-title>
+<!-- 
+  <mat-card-subtitle>
+    <span class="font-large">a.tsimbalyuk1@gmail.com</span>
+  </mat-card-subtitle> -->
+
+ 
+  <mat-card-subtitle>
+  <button mat-button class="mat-button__app">
+    <!-- <mat-icon class="icon-middle">phone_in_talk</mat-icon> -->
+    Log-out
+  </button>
+</mat-card-subtitle>
+  <!-- <mat-card-subtitle>
+    <span class="font-large">@12258685863</span>
+  </mat-card-subtitle> -->
+
+  
+</mat-card-header>
+
+<mat-accordion class="font-large">
+  <!-- &bull; -->
+  <!-- &bull;&nbsp; -->
+  <span class="font-large">a.tsimbalyuk1@gmail.com</span><br>
+  <!-- &bull;&nbsp; -->
+  <span class="yellow">83</span>&nbsp;followers
+  <mat-expansion-panel (opened)="panelOpenState = true"
+                       (closed)="panelOpenState = false">
+    <mat-expansion-panel-header class="jjjj">
+      <mat-panel-title class="font-large uuu">
+        <!-- &bull;&nbsp; -->
+        <span class="yellow">68</span>&nbsp;following
+      </mat-panel-title>
+    </mat-expansion-panel-header>
+    <!-- <p>I'm visible because I am open</p>
+    <p>I'm visible because I am open</p>
+    <p>I'm visible because I am open</p>  -->
+
+    <mat-card-header class="ttt">
+      <img mat-card-avatar src="https://material.angular.io/assets/img/examples/shiba2.jpg">
+      
+      <mat-card-title>
+        <span class="title_lang font-large dots">Zach Hill</span>
+      </mat-card-title>
+    
+      <mat-card-subtitle>
+        <div class="user__followers">
+          <mat-icon class="icon icon-small yellow">thumb_up</mat-icon>
+          <span class="yellow font-small">10</span>
+        </div>
+      </mat-card-subtitle>
+      
+      <button mat-mini-fab title="Join the call">
+        <mat-icon class="icon-middle grey">phone_locked</mat-icon>
+      </button>
+    </mat-card-header>
+
+    <mat-card-header class="ttt">
+      <img mat-card-avatar src="https://material.angular.io/assets/img/examples/shiba2.jpg">
+      
+      <mat-card-title>
+        <span class="title_lang font-large dots">Zach Hill</span>
+      </mat-card-title>
+    
+      <mat-card-subtitle>
+        <div class="user__followers">
+          <mat-icon class="icon icon-small yellow">thumb_up</mat-icon>
+          <span class="yellow font-small">10</span>
+        </div>
+      </mat-card-subtitle>
+      
+      <button mat-mini-fab title="Join the call">
+        <mat-icon class="icon-middle grey">phone_locked</mat-icon>
+      </button>
+    </mat-card-header>
+
+
+
+
+
+
+
+  </mat-expansion-panel>
+</mat-accordion>
+</mat-card>
+
+<!-- <mat-card-header class="ttt">
+  <img mat-card-avatar src="https://material.angular.io/assets/img/examples/shiba2.jpg">
+  
+  <mat-card-title>
+    <span class="title_lang font-large dots">Zach Hill</span>
+  </mat-card-title>
+
+  <mat-card-subtitle>
+    <div class="user__followers">
+      <mat-icon class="icon icon-small yellow">thumb_up</mat-icon>
+      <span class="yellow font-small">10</span>
+    </div>
+  </mat-card-subtitle>
+  
+  <button mat-mini-fab title="Join the call">
+    <mat-icon class="icon-middle grey">phone_locked</mat-icon>
+  </button>
+</mat-card-header> -->
+
+
+
+
